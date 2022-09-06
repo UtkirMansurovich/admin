@@ -1,10 +1,13 @@
 import React from 'react';
-import Logo from './img/Logo.png'
+import Home from './pages/Home/Home';
+import GlobalStyle from './globalStyles';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <img src={Logo} alt="Logo"/>
+      <GlobalStyle/>
+      <Home/>
+      <h1>Hello world</h1>
     </div>
   );
 }
