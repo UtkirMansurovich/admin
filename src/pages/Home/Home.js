@@ -1,12 +1,17 @@
-import React from 'react';
-import Logo from '../../img/Logo.png';
+import { HomeContainer } from './Home.styled';
+import Navbar from '../../layouts/Navbar/Navbar';
+import Header from '../../layouts/Header/Header';
+import SideBar from '../../layouts/SideBar/SideBar';
+import Footer from '../../layouts/Footer/Footer';
 
 const Home = () => {
     return (
-        <div>
-            {/* <img src={Logo} alt="Logo"/> */}
-            <h1>Hello world</h1>
-        </div>
+        <HomeContainer>
+            <Navbar/>
+            <Header/>
+            <SideBar/>
+            <Footer/>
+        </HomeContainer>
     )
 }
 

@@ -1,13 +1,11 @@
-import React from 'react';
 import Home from './pages/Home/Home';
-import GlobalStyle from './globalStyles';
+import GlobalStyle from './base/Base';
 
-const App = () => {
+function App() {
   return (
     <div>
-      <GlobalStyle/>
+      <GlobalStyle fontPrimary/>
       <Home/>
-      <h1>Hello world</h1>
     </div>
   );
 }
