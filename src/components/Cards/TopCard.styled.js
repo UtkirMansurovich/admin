@@ -17,8 +17,7 @@ export const TopCardBox = styled.div`
         border: 1px solid #e3e6f0;
         border-radius: .56rem;
         padding: 2rem 2.8rem;
-        align
-
+        
         &:nth-child(1) {
             border-left: .5rem solid #4e73df;
             

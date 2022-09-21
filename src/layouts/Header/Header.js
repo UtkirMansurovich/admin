@@ -2,6 +2,8 @@ import { HeaderSection } from "./Header.styled";
 import Dashboard from "../../components/Dashboard/Dashboard";
 import GenerateBtn from "../../components/GenerateBtn/GenerateBtn";
 import TopCard from "../../components/Cards/TopCard";
+import EarningChart from "../../components/EarningChart/EarningChart";
+import RevenueChart from "../../components/RevenueChart/RevenueChart";
 
 const Header = () => {
     return (
@@ -9,9 +11,8 @@ const Header = () => {
             <Dashboard/>
             <GenerateBtn/>
             <TopCard/>
-            <div></div>
-            <div></div>
-            <div></div>
+            <EarningChart/>
+            <RevenueChart/>
             <div></div>
             <div></div>
             <div></div>
