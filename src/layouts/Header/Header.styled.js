@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
 export const HeaderSection = styled.div`
-    background-color: ##f8f9fc;
     grid-row: 2 / 3;
     grid-column: full-start / full-end;
+
+    display: grid;
+    grid-template-rows: repeat(8, min-content);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2.4rem;
+    padding: 2.4rem;
 `;
