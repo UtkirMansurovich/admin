@@ -5,7 +5,7 @@ export const HeaderSection = styled.div`
     grid-column: full-start / full-end;
 
     display: grid;
-    grid-template-rows: repeat(2, min-content) 40rem repeat(5, min-content);
+    grid-template-rows: repeat(2, min-content) 400px repeat(5, min-content);
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 2.4rem;
     padding: 2.4rem;
